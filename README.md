@@ -113,4 +113,4 @@ Some final thoughts, all my opinion of course.
 - It isn't possible to create a product like airtable that is as useful as Google Sheets.
 - It may be possible to create a product like airtable which is inherently built around the idea of a multi-tenant SAAS application; but it may also not be possible. It's not clear, because multi-tenant SAAS applications typically involve managing varying levels of access control, which is not something a product like Airtable can solve; as its users are not interested in access control outside of the binary 'can they view, edit'.
 
-I think the idea I find the most interesting is how a tool could be made that easily transitions between these abstractions.
+I think the idea I find the most interesting is how a tool could be made that would facilitate transitioning between these levels of utility and power as user needs change (or don't!)
