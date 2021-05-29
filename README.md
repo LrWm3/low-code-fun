@@ -107,4 +107,10 @@ The remaining questions become:
 - How can we translate work performed in spreadsheets into something more structured which can be used by automated systems and analysts?
 - How can we translate private automated systems used by automated systems and analysts into public facing ones which can be used by anyone?
 
-I will continue to watch for products trying to bridge this deep divide.
+Some final thoughts, all my opinion of course.
+
+- It's not clear what could be made that would be easier than Google Sheets for non-technical users, if taking an approach with standard computer or mobile approaches. That said, I expect there are lots of Apps which have tried this; potentially something to look into.
+- It isn't possible to create a product like airtable that is as useful as Google Sheets.
+- It may be possible to create a product like airtable which is inherently built around the idea of a multi-tenant SAAS application; but it may also not be possible. It's not clear, because multi-tenant SAAS applications typically involve managing varying levels of access control, which is not something a product like Airtable can solve; as its users are not interested in access control outside of the binary 'can they view, edit'.
+
+I think the idea I find the most interesting is how a tool could be made that easily transitions between these abstractions.
