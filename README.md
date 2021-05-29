@@ -15,23 +15,27 @@ Why is it that Chris Sawyer was able to do this? I believe the answer is because
 creating highly modular software using code.
 
 I think it's fair to say that most of us are not that good at creating highly modular software using code,
-event when given access to an abundance of resources & freedom in choices around technology & tooling.
+even when given access to an abundance of resources & freedom in choices around technology & tooling.
 
-Software development is inherently hard to do. We primarily do it with code written in text.
+Software development is inherently hard to do. 
+
+Historically, we have primarily created software using code written in text.
 
 Without going through the core challenges which make software development difficult, I think it's fair to say
-there's some desire to have technology stacks which take advantage of more of what we have to offer than
-what we can do with text files.
+there's some desire to have technology stacks which take advantage of more of the intellectual capabilities of
+all people, both technical and non-technical. The percentage of people who can create systems by working
+with code in text files is already a tiny group, and the percentage of people who can do it well is even smaller.
 
-However, the current text file approach has been the way we've gone about things for over 50 years.
-There are a few significant advantages this approach has over many of the more modern no-code approaches.
-
-Some of these areas will need to be re-explored as we learn to deploy new techniques and tools for software
+However, the current text file approach has been the way we've gone about things for over 50 years when developing
+enterprise systems. There are a few significant advantages this approach has over many of the more modern no-code approaches.
+I believe some of these areas will need to be re-explored as we learn to deploy new techniques and tools for software
 development.
 
 - Understanding of version control
 - Understanding of testing and verification
 - Understanding of how to build plugin & modular architectures
+- Sanitation
+- Users, Groups, Roles, and Permissions
 - IDE Debugging
 
 ## This repo
@@ -84,7 +88,7 @@ I eventually hit an auth issue on the GQL query.
 
 The App Store aspect of this product is a cool idea. Having storage, chat and other types of things built into the database level is cool.
 
-I think I understand the general idea of something like airtable. I just feel like something is missing.
+I think I now understand the general idea of something like airtable. I just feel like something is missing.
 
 I think inherently the problem boils down to something like this:
 
@@ -94,11 +98,13 @@ I think inherently the problem boils down to something like this:
 4. For people with limited technical skills, it is unclear what the best tool is. It may be a notebook, or a hand-written table and a calculator. Or it may be using money to pay other people to
    manage this kind of work. I am not sure.
 
-The most popular products seem to combine authentication and authorization & then slant towards either spreadsheet types or SQL relational types. Additionally, there is still a yet unserved
-group of people which cannot make use of spreadsheets.
+The most popular products seem to combine authentication and authorization & then slant towards either spreadsheet types or SQL relational types. 
+dditionally, there is still a yet unserved group of people which cannot make use of spreadsheets.
 
 The remaining questions become:
 
 - How can we serve people who can't use spreadsheets at all? What tools will best help them answer questions relevant to them?
 - How can we translate work performed in spreadsheets into something more structured which can be used by automated systems and analysts?
 - How can we translate private automated systems used by automated systems and analysts into public facing ones which can be used by anyone?
+
+I will continue to watch for products trying to bridge this deep divide.
