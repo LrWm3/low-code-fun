@@ -1,0 +1,31 @@
+version: "3"
+services:
+  database:
+    container_name: "postgres"
+    image: "postgres" # use latest official postgres version
+    restart: always
+    env_file:
+      - database.env # configure postgres
+    volumes:
+      - database-data:/var/lib/postgresql/data/ # persist data even if container shuts downvolumes:
+    ports:
+      - "5432"
+    networks:
+      - main
+
+  nocode:
+    container_name: "nocode"
+    image: nocodb/nocodb
+    depends_on:
+      - database
+    ports:
+      - "8080:8080"
+    networks:
+      - main
+    env_file:
+      - nocode.env
+volumes:
+  database-data: # named volumes can be managed easier using docker-compose
+
+networks:
+  main:
