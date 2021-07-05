@@ -1,6 +1,6 @@
-# low-code-fun
+# programming-is-hard
 
-Low code fun
+Programming is hard click-bait title to a repo interested in exploring ideas around how to reduce the cost of system development.
 
 ## Background
 
